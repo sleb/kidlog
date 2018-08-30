@@ -1,0 +1,93 @@
+{
+  "version": "1.0",
+  "session": {
+    "new": true,
+    "sessionId": "amzn1.echo-api.session.da5c843c-06be-494c-9321-4847a1b21c1b",
+    "application": {
+      "applicationId": "amzn1.ask.skill.e0b9785f-a8df-447e-ab1b-556785d4de5b"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AG5Y4LPUZHYGC3VWOC6YHYGXEST24Z6KD33LPQSWFD2B7UGAZSAMRVGKY452AZTQ2JHMX5CPXUGMTIWJXKXOSBUFFOMR54GTFFMR234XIHCRO5HDCPOCWRRXYIOYTW4ANMFBIUHLZTO6OUW43TIJHCQFX74ZEBURCAVVHYVTT72IZZUVJKA7XEZ3AR45OPMGV76F2I5KUXLLZ6A"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.e0b9785f-a8df-447e-ab1b-556785d4de5b"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AG5Y4LPUZHYGC3VWOC6YHYGXEST24Z6KD33LPQSWFD2B7UGAZSAMRVGKY452AZTQ2JHMX5CPXUGMTIWJXKXOSBUFFOMR54GTFFMR234XIHCRO5HDCPOCWRRXYIOYTW4ANMFBIUHLZTO6OUW43TIJHCQFX74ZEBURCAVVHYVTT72IZZUVJKA7XEZ3AR45OPMGV76F2I5KUXLLZ6A"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AGGLW2I7OATACPMGWLPOKROPLIQG5UOGEFGB5NBCHKBHIDLTNSBAYTECMAP4PGORQCVKW3ENAHAK36Z3BFGSCR2UQUIQIQTQXOZP2FK2BLY5RSYSOHHUYNQOUBGOMPCDWHEJBJFZTJSMFKAAK4EBLI2PQTEA",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmQ1NjUxN2U2LTMyYmItNGE5ZC1iZWE3LThiODIxMjhhMjY4YyIsImV4cCI6MTUzMjc2ODg4NSwiaWF0IjoxNTMyNzY1Mjg1LCJuYmYiOjE1MzI3NjUyODUsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdHTFcySTdPQVRBQ1BNR1dMUE9LUk9QTElRRzVVT0dFRkdCNU5CQ0hLQkhJRExUTlNCQVlURUNNQVA0UEdPUlFDVktXM0VOQUhBSzM2WjNCRkdTQ1IyVVFVSVFJUVRRWE9aUDJGSzJCTFk1UlNZU09ISFVZTlFPVUJHT01QQ0RXSEVKQkpGWlRKU01GS0FBSzRFQkxJMlBRVEVBIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUc1WTRMUFVaSFlHQzNWV09DNllIWUdYRVNUMjRaNktEMzNMUFFTV0ZEMkI3VUdBWlNBTVJWR0tZNDUyQVpUUTJKSE1YNUNQWFVHTVRJV0pYS1hPU0JVRkZPTVI1NEdURkZNUjIzNFhJSENSTzVIRENQT0NXUlJYWUlPWVRXNEFOTUZCSVVITFpUTzZPVVc0M1RJSkhDUUZYNzRaRUJVUkNBVlZIWVZUVDcySVpaVVZKS0E3WEVaM0FSNDVPUE1HVjc2RjJJNUtVWExMWjZBIn19.PaNC8gJtmV_TR4vuL6XVhG_rJAEIaU1H4DrSjpxZISlXhKTI_rvg4LcmDGlM1KsK88kCOAFns84rfub88ILSZo8ZExWC1JTZCrrxKBM4nikohf651c7MmYB-gpcnMKKVfOrmmxvmq3JHXSnzaxJXN-x_gtkvC3pBQEVn7U7b4mVkTJFmTFNVh39Jj_kizka5Y7DIPNAjXQMOEoxklxbyktXx2I0hvRV8mXINr-v4QrfN6J8y-8PY152MeY8pB2dHcJutddxQ0M1XHQRF4SmYaXq47Ck0XunaFccI2kiVVrVzThKnRfwZG8RjhsCEavalEQBPsNcovQBXTueEKdw1Dg"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.67035e54-57d2-4152-810c-fec3588312c9",
+    "timestamp": "2018-07-28T08:08:05Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "LogActivityIntent",
+      "confirmationStatus": "NONE",
+      "slots": {
+        "duration": {
+          "name": "duration",
+          "value": "PT15M",
+          "confirmationStatus": "NONE"
+        },
+        "activity": {
+          "name": "activity",
+          "value": "piano",
+          "resolutions": {
+            "resolutionsPerAuthority": [
+              {
+                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.e0b9785f-a8df-447e-ab1b-556785d4de5b.Activity",
+                "status": {
+                  "code": "ER_SUCCESS_MATCH"
+                },
+                "values": [
+                  {
+                    "value": {
+                      "name": "piano",
+                      "id": "piano"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "confirmationStatus": "NONE"
+        },
+        "kid": {
+          "name": "kid",
+          "value": "Henry Tate",
+          "resolutions": {
+            "resolutionsPerAuthority": [
+              {
+                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.e0b9785f-a8df-447e-ab1b-556785d4de5b.Kid",
+                "status": {
+                  "code": "ER_SUCCESS_MATCH"
+                },
+                "values": [
+                  {
+                    "value": {
+                      "name": "henry",
+                      "id": "henry"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "confirmationStatus": "NONE"
+        }
+      }
+    },
+    "dialogState": "STARTED"
+  }
+}
